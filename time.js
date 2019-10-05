@@ -1,13 +1,10 @@
 
 
-var dest = new Date("oct 6,2019 17:59:00").getTime();
+var dest = new Date("oct 6,2019 17:17:00").getTime();
 
 var x = setInterval( function() { 
 
-
-
-    var currentDate = new Date().getTime();
-
+var currentDate = new Date().getTime();
 
 
 var diff = dest - currentDate ;

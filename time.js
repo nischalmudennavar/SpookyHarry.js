@@ -4,7 +4,11 @@ var dest = new Date("oct 8,2019 17:17:00").getTime();
 
 var x = setInterval( function() { 
 
-var currentDate = new Date().getTime();
+window.onload= function(){
+
+    var currentDate = new Date().getTime();
+
+}
 
 var diff = dest - currentDate ;
 

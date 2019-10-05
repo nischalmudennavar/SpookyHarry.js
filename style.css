@@ -1,0 +1,230 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+@font-face {
+  font-family: 'hp';
+  src: url(font/hp.TTF);
+}
+
+.container1 {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.container1 h1 {
+  font-family: 'hp';
+  background: none;
+  color: black;
+  position: -webkit-sticky;
+  position: sticky;
+  font-weight: 100;
+  font-size: 70px;
+  background: none;
+  text-shadow: 10px 15px 10px  #000;
+}
+
+.container1 .parallax {
+  height: 90%;
+  width: 80%;
+  overflow: hidden;
+  border: 2px solid white;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-image: none;
+}
+
+.container1 .parallax #saturn1 {
+  -webkit-animation: waves 10s  ease-in-out;
+          animation: waves 10s  ease-in-out;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+.container1 p {
+  position: fixed;
+  height: 70px;
+  width: auto;
+  border: 2px solid;
+  border-color: #ffffff;
+  text-align: center;
+  background: none;
+  line-height: 70px;
+  letter-spacing: 5px;
+  color: white;
+  font-size: 50px;
+  font-weight: 100;
+  font-family: 'hp';
+  padding: 10px;
+  z-index: 99;
+  text-shadow: 10px 15px 20px  #000;
+  position: relative;
+}
+
+.container1 .shape1 {
+  margin-top: 300px;
+  height: 400px;
+  width: 400px;
+  border: 10px solid #000;
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 40px #000;
+          box-shadow: 10px 10px 40px #000;
+}
+
+@media screen and (max-width: 800px) {
+  .container1 h1 {
+    font-size: 10px;
+  }
+  .container1 .container1 .hpp {
+    font-size: 30px;
+  }
+  .container1 p {
+    height: 30px;
+    line-height: 30px;
+    background: none;
+    font-size: 20px;
+    font-weight: 500;
+    width: 35px;
+    padding: 2px;
+    margin-right: 0px;
+    padding-right: 195px;
+    padding-left: 2%;
+    text-shadow: 10px 10px 10px  #000;
+    text-align: center;
+  }
+  .container1 .afterr {
+    font-size: 80px;
+  }
+}
+
+.container1 .imageee {
+  opacity: 0.1;
+  z-index: 4;
+  position: absolute;
+  width: auto;
+  height: 100%;
+  -webkit-animation: fogg 1s  infinite ease;
+          animation: fogg 1s  infinite ease;
+  border-radius: 50%;
+}
+
+.container1 #aftercountdown {
+  text-align: center;
+  color: white;
+  font-size: 60px;
+  font-weight: 100;
+  z-index: 6;
+  background: none;
+  font-family: 'hp';
+  padding: 10px;
+  letter-spacing: 5px;
+  -webkit-animation: app1   ease-in;
+          animation: app1   ease-in;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  text-shadow: 0px 18px 25px  #000;
+}
+
+@-webkit-keyframes app1 {
+  0% {
+    opacity: 0.0;
+    font-size: 0px;
+  }
+  50% {
+    opacity: 1;
+    color: white;
+  }
+  100% {
+    opacity: 1;
+    font-size: 60px;
+  }
+}
+
+@keyframes app1 {
+  0% {
+    opacity: 0.0;
+    font-size: 0px;
+  }
+  50% {
+    opacity: 1;
+    color: white;
+  }
+  100% {
+    opacity: 1;
+    font-size: 60px;
+  }
+}
+
+@-webkit-keyframes fogg {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+@keyframes fogg {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 0.4;
+  }
+}
+
+@-webkit-keyframes waves {
+  0% {
+    margin-left: 00px;
+  }
+  50% {
+    margin-right: 30%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+@keyframes waves {
+  0% {
+    margin-left: 00px;
+  }
+  50% {
+    margin-right: 30%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

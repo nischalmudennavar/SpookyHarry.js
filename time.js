@@ -1,6 +1,6 @@
 
 
-var dest = new Date("oct 5,2019 23:15:00").getTime();
+var dest = new Date("oct 8,2019 17:17:00").getTime();
 
 var x = setInterval( function() { 
 
@@ -24,7 +24,7 @@ var seconds = Math.floor( (diff % (1000 * 60))/1000);
 
 console.log(seconds);
 
-document.getElementById("countdown").innerHTML = days+ "Days:" +hours+"hrs:"+minutes+"m:"+seconds+"s";
+ document.getElementById("countdown").innerHTML = days+ "Days:" +hours+"hrs:"+minutes+"m:"+seconds+"s";
 
 
 
@@ -42,8 +42,7 @@ if( days < 0 )
 
     
     var manip = document.getElementById("countdown").style;
-    manip.fontSize="4em"
-    manip.lineHeight="120px";
+   
 
 
    
@@ -86,6 +85,9 @@ if( days < 0 )
 
 
 },1000 );
+
+
+
 
   
 // window.onload=function(){

@@ -60,15 +60,7 @@ if( days < 0 )
         
         document.getElementById("aftercountdown").style.animationPlayState="running";
 
-      function(){
-          track.applyConstraints({
-            advanced: [{torch: true}]
-          });
-        }
-
-    //    document.getElementById("Forjs").style.display="none";
-       
-       
+     
 
            manip.display="none";
 

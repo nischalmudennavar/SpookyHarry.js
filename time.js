@@ -1,6 +1,6 @@
 
 
-var dest = new Date("feb 13 2021 2:05:00").getTime();
+var dest = new Date("feb 13 2021 2:02:00").getTime();
 
 var x = setInterval( function() { 
 
